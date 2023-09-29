@@ -1,0 +1,70 @@
+/* ヘッダー*/
+.site-header {
+    position: relative;
+    background-color: #87cefa;  
+}
+
+/* 動画像 */
+.container{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+}
+.container a{
+    position: absolute;
+    font-size: 30px;
+}
+.container .c1{
+    top: 0;
+    left: 5%;
+}
+.container .c2{
+    top: 40%;
+    left: 5%;
+}
+.container .c3{
+    top: 0;
+    left: 23%
+}
+.container .c4{
+    top: 40%;
+    left: 23%;
+}
+.container .c5{
+    top: 0;
+    left: 42%;
+}
+.container .c6{
+    top: 40%;
+    left: 42%;
+}
+.container .c7{
+    top: 80%;
+    left: 12%;
+}
+.container .c8{
+    top: 80%;
+    left: 29%;
+}
+.container iframe{
+    left: 20%;
+}
+.container form{
+    position: absolute;
+    display: inline;
+    top: 82%;
+    left: 60%;
+    font-size: 20px;
+}
+.container .p2{
+    position: absolute;
+    display: inline;
+    top: 90%;
+    left: 60%;
+    font-size: 20px;
+}
+
+/* マウスオーバ */
+.hover:hover{
+    color: red;
+}
